@@ -17,6 +17,13 @@ for conf_thresh = 0.25, precision = 0.69, recall = 0.64, F1-score = 0.66<br>
 for conf_thresh = 0.25, TP = 20935, FP = 9334, FN = 11764, average IoU = 53.16 %<br>
 IoU threshold = 50 %, used Area-Under-Curve for each unique Recall<br>
 
+## Types that can be detected
+1. car
+2. truck
+3. pedestrian
+4. bicyclist
+5. light
+
 ## Training Log
 
 ![image](https://user-images.githubusercontent.com/34447298/126898309-b749ffc5-0495-4594-894b-fdc57090ed4e.png)

@@ -31,7 +31,7 @@ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall<br>
 ## How to use
 
 - Use with <a href='https://github.com/AlexeyAB/darknet' target="_blank">YOLOv4 AlexeyAB</a>
-- 
+
 
 ## Environment
 

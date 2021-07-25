@@ -43,7 +43,7 @@ Cuda compilation tools, release 11.0, V11.0.221<br>
 Build cuda_11.0_bu.TC445_37.28845127_0
 
 
-## Video demo
+## Full video demo
 
 - Quality: 720p
 - AVG_FPS: 33.5<br>

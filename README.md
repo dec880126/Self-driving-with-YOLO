@@ -1,10 +1,10 @@
 <h1 align="center">Self-driving training with YOLOv4</h1>
 
 ## Weights I trained
-- <a href='https://drive.google.com/file/d/1mmxOU3D-wyLeLI1jg-vhKj-Kt7UQ_GHs/view?usp=sharing' target='_blank'>yolov4-obj_3.1656.weights</a>
+- <a href='https://drive.google.com/file/d/1mmxOU3D-wyLeLI1jg-vhKj-Kt7UQ_GHs/view?usp=sharing' target="_blank">yolov4-obj_3.1656.weights</a>
 
 ## How to use
-- Use with <a href='https://github.com/AlexeyAB/darknet' target='_blank'>YOLOv4 AlexeyAB</a>
+- Use with <a href='https://github.com/AlexeyAB/darknet' target="_blank">YOLOv4 AlexeyAB</a>
 
 ## Environment
 

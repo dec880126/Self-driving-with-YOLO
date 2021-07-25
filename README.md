@@ -4,7 +4,7 @@
 ![1627216237257](https://user-images.githubusercontent.com/34447298/126899013-21aadbf8-b79e-46ad-b63e-0d3d0f59cab5.gif)
 
 
-## mAP(mean accuracy precision)
+## mAP(mean Average Precision)
 
 - **mean average precision (mAP@0.50) = 51.93 %**<br><br>
 > detections_count = 110160, unique_truth_count = 32699

@@ -1,4 +1,7 @@
 <h1 align="center">Self-driving training with YOLOv4</h1>
+## demo
+![1627216237257](https://user-images.githubusercontent.com/34447298/126899013-21aadbf8-b79e-46ad-b63e-0d3d0f59cab5.gif)
+
 
 ## Weights I trained
 - <a href='https://drive.google.com/file/d/1mmxOU3D-wyLeLI1jg-vhKj-Kt7UQ_GHs/view?usp=sharing' target="_blank">yolov4-obj_3.1656.weights</a>

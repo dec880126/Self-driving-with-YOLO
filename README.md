@@ -63,5 +63,5 @@ Build cuda_11.0_bu.TC445_37.28845127_0
 - AVG_FPS: 52.0
 
 ## References
-Training data from: https://www.kaggle.com/alincijov/self-driving-cars
-Tesing data from: https://youtu.be/z1obnaqPgMA
+- Training data from: https://www.kaggle.com/alincijov/self-driving-cars
+- Tesing data from: https://youtu.be/z1obnaqPgMA

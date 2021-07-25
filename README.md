@@ -1,5 +1,6 @@
 <h1 align="center">Self-driving training with YOLOv4</h1>
-## demo
+
+## Demo
 ![1627216237257](https://user-images.githubusercontent.com/34447298/126899013-21aadbf8-b79e-46ad-b63e-0d3d0f59cab5.gif)
 
 

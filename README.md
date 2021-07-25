@@ -32,6 +32,7 @@ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall<br>
 
 ## Weights I trained
 
+avg loss converge at 3.1656
 - <a href='https://drive.google.com/file/d/1mmxOU3D-wyLeLI1jg-vhKj-Kt7UQ_GHs/view?usp=sharing' target="_blank">yolov4-obj_3.1656.weights</a>
 
 

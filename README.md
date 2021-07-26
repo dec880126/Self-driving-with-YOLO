@@ -27,7 +27,7 @@ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall<br>
 ## Training Log
 
 ![image](https://user-images.githubusercontent.com/34447298/126898309-b749ffc5-0495-4594-894b-fdc57090ed4e.png)
-> I loss some training log beacuse it will be disconnected after a about 2~3 hours with Goolge Colaboratory.
+> I loss some training log beacuse it will be disconnected after a about 2~3 hours with Google Colaboratory.
 
 
 ## Weights I trained

@@ -64,5 +64,6 @@ avg loss converge at 3.1656
 - AVG_FPS: 52.0
 
 ## References
+- YOLOv4: Optimal Speed and Accuracy of Object Detection: https://arxiv.org/pdf/2004.10934
 - Training data from: https://www.kaggle.com/alincijov/self-driving-cars
 - Tesing data from: https://youtu.be/z1obnaqPgMA

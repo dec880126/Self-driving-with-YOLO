@@ -18,11 +18,11 @@ for conf_thresh = 0.25, TP = 20935, FP = 9334, FN = 11764, average IoU = 53.16 %
 IoU threshold = 50 %, used Area-Under-Curve for each unique Recall<br>
 
 ## Types that can be detected
-1. car
-2. truck
-3. pedestrian
-4. bicyclist
-5. light
+1. car: with 101314 labels
+2. truck: with 6313 labels
+3. pedestrian: with 10637 labels
+4. bicyclist: with 1442 labels
+5. light: with 12700 labels
 
 ## Training Log
 

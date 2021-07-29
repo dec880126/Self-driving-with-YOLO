@@ -1,7 +1,9 @@
 <h1 align="center">Self-driving training with YOLOv4</h1>
 
 ## Demo
-![1627216237257](https://user-images.githubusercontent.com/34447298/126899013-21aadbf8-b79e-46ad-b63e-0d3d0f59cab5.gif)
+YOLOv4             |  YOLOv3
+:-------------------------:|:-------------------------:
+![1627216237257](https://user-images.githubusercontent.com/34447298/126899013-21aadbf8-b79e-46ad-b63e-0d3d0f59cab5.gif) | 
 
 ## AP
 class             |  AP in YOLOv4 |  AP in YOLOv3 | TP&FP in YOLOv4
@@ -52,6 +54,14 @@ YOLOv4             |  YOLOv3
 - nvcc: NVIDIA (R) Cuda compiler driver
 - Cuda compilation tools, release 11.0, V11.0.221
 - Build cuda_11.0_bu.TC445_37.28845127_0
+
+
+# Speed
+| | YOLOv4             |  YOLOv3
+|:-------------------------:|:-------------------------:|:-------------------------:
+|Quality: 720p | AVG FPS = 33.5 | AVG FPS = 27.1
+|Quality: 360p | AVG FPS = 52.0 | AVG FPS = 35.9
+| mAP | 51.93 % | 40.80 %
 
 
 ## Full video demo

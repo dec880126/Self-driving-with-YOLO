@@ -25,15 +25,16 @@ IoU threshold = 50 %, used Area-Under-Curve for each unique Recall<br>
 5. light: with 12700 labels
 
 ## Training Log
+YOLOv4             |  YOLOv3
+:-------------------------:|:-------------------------:
+![image](https://user-images.githubusercontent.com/34447298/126898309-b749ffc5-0495-4594-894b-fdc57090ed4e.png)  |  ![chart](https://user-images.githubusercontent.com/34447298/127447409-ed86928f-d060-440b-925c-fc0bedb69b0c.png)
 
-![image](https://user-images.githubusercontent.com/34447298/126898309-b749ffc5-0495-4594-894b-fdc57090ed4e.png)
-> I loss some training log beacuse it will be disconnected after a about 2~3 hours with Google Colaboratory.
 
 
 ## Weights I trained
-
-avg loss converge at 3.1656
-- <a href='https://drive.google.com/file/d/1mmxOU3D-wyLeLI1jg-vhKj-Kt7UQ_GHs/view?usp=sharing' target="_blank">yolov4-obj_3.1656.weights</a>
+YOLOv4             |  YOLOv3
+:-------------------------:|:-------------------------:
+<a href='https://drive.google.com/file/d/1mmxOU3D-wyLeLI1jg-vhKj-Kt7UQ_GHs/view?usp=sharing' target="_blank">yolov4-obj_3.1656.weights</a> | <a href='https://drive.google.com/file/d/1Hrf_RzsQWD8oRv5UX37C9JvF8QO8w7qp/view?usp=sharing' target="_blank">yolov3-obj_10000.weights</a>
 
 
 ## How to use

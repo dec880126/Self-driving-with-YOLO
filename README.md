@@ -1,4 +1,4 @@
-<h1 align="center">Self-driving training with YOLOv4</h1>
+<h1 align="center">Self-driving training with YOLO</h1>
 
 ## Demo
 YOLOv4             |  YOLOv3

@@ -3,19 +3,21 @@
 ## Demo
 ![1627216237257](https://user-images.githubusercontent.com/34447298/126899013-21aadbf8-b79e-46ad-b63e-0d3d0f59cab5.gif)
 
+## AP
+class             |  AP in YOLOv4 |  AP in YOLOv3 | TP&FP in YOLOv4
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+car | ap = 72.28% | ap = 69.30% | TP = 16024, FP = 6722
+truckr | ap = 62.58% | ap = 51.89% | TP = 624, FP = 277
+pedestrianr | ap = 39.53% | ap = 24.20% | TP = 2060, FP = 1502
+bicyclistr | ap = 36.90% | ap = 15.66% | TP = 89, FP = 75
+lightr | ap = 48.34% | ap = 42.93% | TP = 2138, FP = 758
+
 
 ## mAP(mean Average Precision)
+YOLOv4             |  YOLOv3
+:-------------------------:|:-------------------------:
+**mean average precision (mAP@0.50) = 51.93 %** | **mean average precision (mAP@0.50) = 40.80 %**
 
-- **mean average precision (mAP@0.50) = 51.93 %**<br><br>
-> detections_count = 110160, unique_truth_count = 32699
-- class_id = 0, name = car, ap = 72.28% (TP = 16024, FP = 6722)
-- class_id = 1, name = truck, ap = 62.58% (TP = 624, FP = 277)
-- class_id = 2, name = pedestrian, ap = 39.53% (TP = 2060, FP = 1502)
-- class_id = 3, name = bicyclist, ap = 36.90% (TP = 89, FP = 75)
-- class_id = 4, name = light, ap = 48.34% (TP = 2138, FP = 758)<br>
-for conf_thresh = 0.25, precision = 0.69, recall = 0.64, F1-score = 0.66<br>
-for conf_thresh = 0.25, TP = 20935, FP = 9334, FN = 11764, average IoU = 53.16 %<br>
-IoU threshold = 50 %, used Area-Under-Curve for each unique Recall<br>
 
 ## Types that can be detected
 1. car: with 101314 labels

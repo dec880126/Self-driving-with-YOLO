@@ -7,13 +7,13 @@ YOLOv4             |  YOLOv3
 
 
 ## AP
-class             |  AP in YOLOv4 |  AP in YOLOv3 | TP&FP in YOLOv4
-:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
-car | ap = 72.28% | ap = 69.30% | TP = 16024, FP = 6722
-truckr | ap = 62.58% | ap = 51.89% | TP = 624, FP = 277
-pedestrianr | ap = 39.53% | ap = 24.20% | TP = 2060, FP = 1502
-bicyclistr | ap = 36.90% | ap = 15.66% | TP = 89, FP = 75
-lightr | ap = 48.34% | ap = 42.93% | TP = 2138, FP = 758
+class             |  AP in YOLOv4 |  AP in YOLOv3 | TP&FP in YOLOv4 | TP&FP in YOLOv3
+:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:
+car | ap = 72.28% | ap = 69.30% | TP = 16024, FP = 6722 | TP = 15037, FP = 6829
+truckr | ap = 62.58% | ap = 51.89% | TP = 624, FP = 277 | TP = 469, FP = 244
+pedestrianr | ap = 39.53% | ap = 24.20% | TP = 2060, FP = 1502 | TP = 1213, FP = 1242
+bicyclistr | ap = 36.90% | ap = 15.66% | TP = 89, FP = 75 | TP = 51, FP = 94
+lightr | ap = 48.34% | ap = 42.93% | TP = 2138, FP = 758 | TP = 1793, FP = 706
 
 
 ## mAP(mean Average Precision)

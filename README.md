@@ -22,7 +22,7 @@ YOLOv4             |  YOLOv3
 **mean average precision (mAP@0.50) = 51.93 %** | **mean average precision (mAP@0.50) = 40.80 %**
 
 
-## Types that can be detected
+## Types that can be detect
 1. car: with 101314 labels
 2. truck: with 6313 labels
 3. pedestrian: with 10637 labels

@@ -104,6 +104,9 @@ YOLOv4             |  YOLOv3
 |Quality: 720p | <a href='https://youtu.be/FCZUgSq0MC4'>Click Me</a> | <a href='https://youtu.be/tIrTPZjyQCI'>Click Me</a>
 |Quality: 360p | <a href='https://youtu.be/dCZqnxwqpzs'>Click Me</a> | <a href='https://youtu.be/X-daaeXujCQ'>Click Me</a>
 | mAP | 54.02 % | 40.80 %
+<br>
+<a href='https://youtu.be/8aLlVEkXN5Q'>Video of comparison between YOLOv4 & YOLOv3</a>
+
 
 <h2 id='ref'>References</h2>
 

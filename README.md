@@ -62,7 +62,7 @@ YOLOv4             |  YOLOv3
 
 
 # Speed
-![截圖 2021-08-03 03 12 23](https://user-images.githubusercontent.com/34447298/127911607-36a57c7c-bc86-4541-a0af-308f4435dccf.png)
+![截圖 2021-08-03 03 37 19](https://user-images.githubusercontent.com/34447298/127914264-eae20dd4-0a38-4b0c-92ff-c774a1191a66.png)
 
 | | YOLOv4             |  YOLOv3
 |:-------------------------:|:-------------------------:|:-------------------------:

@@ -7,7 +7,7 @@ YOLOv4             |  YOLOv3
 
 
 ## AP
-![截圖 2021-08-03 03 32 36](https://user-images.githubusercontent.com/34447298/127913755-4ee6722e-ea32-4277-9b63-e7a95c47d8ac.png)
+![截圖 2021-08-03 03 45 54](https://user-images.githubusercontent.com/34447298/127915198-ae6b5b4c-1f02-4e89-8e28-6cd49f6b5892.png)
 
 class             |  AP in YOLOv4 |  AP in YOLOv3 | TP&FP in YOLOv4 | TP&FP in YOLOv3
 :-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:|:-------------------------:

@@ -62,22 +62,20 @@ YOLOv4             |  YOLOv3
 # Speed
 | | YOLOv4             |  YOLOv3
 |:-------------------------:|:-------------------------:|:-------------------------:
-|Quality: 720p | AVG FPS = 33.5 | AVG FPS = 27.1
-|Quality: 360p | AVG FPS = 52.0 | AVG FPS = 35.9
+|Quality: 1080p | AVG FPS = 14.6 | AVG FPS = 16.1
+|Quality: 720p | AVG FPS = 33.1 | AVG FPS = 33.0
+|Quality: 360p | AVG FPS = 45.2 | AVG FPS = 43.4
 | mAP | 51.93 % | 40.80 %
 
 
 ## Full video demo
 
-- Quality: 720p
-- AVG_FPS: 33.5<br>
-[![Alt text](https://i.ytimg.com/vi/KRhkeHaPoyg/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBuo-TOUEEKVe7HPJy5eIkQZiCVdQ)](https://youtu.be/KRhkeHaPoyg)
-
-
-### Other quality
-
-- 360p
-- AVG_FPS: 52.0
+| | YOLOv4             |  YOLOv3
+|:-------------------------:|:-------------------------:|:-------------------------:
+|Quality: 1080p | 
+|Quality: 720p | 
+|Quality: 360p | 
+| mAP | 54.02 % | 40.80 %
 
 ## References
 - YOLOv4: Optimal Speed and Accuracy of Object Detection: https://arxiv.org/pdf/2004.10934

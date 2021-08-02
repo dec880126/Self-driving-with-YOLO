@@ -1,12 +1,14 @@
 <h1 align="center">Self-driving training with YOLO</h1>
 
 <h2 id='Demo'>Demo</h2>
+
 YOLOv4             |  YOLOv3
 :-------------------------:|:-------------------------:
 ![1627216237257](https://user-images.githubusercontent.com/34447298/126899013-21aadbf8-b79e-46ad-b63e-0d3d0f59cab5.gif) | ![1627544679170](https://user-images.githubusercontent.com/34447298/127452341-4deb4463-1c65-4923-a30f-6aa8326c46cd.gif)
 
 
 <h2 id='AP'>AP</h2>
+
 ![截圖 2021-08-03 03 45 54](https://user-images.githubusercontent.com/34447298/127915198-ae6b5b4c-1f02-4e89-8e28-6cd49f6b5892.png)
 
 class             |  AP in YOLOv4 |  AP in YOLOv3 | TP&FP in YOLOv4 | TP&FP in YOLOv3
@@ -22,6 +24,7 @@ Conclusion: **More significant improvement in low AP classes.**
 
 
 <h2 id='mAP'>mAP</h2>
+
 ![截圖 2021-08-03 03 42 48](https://user-images.githubusercontent.com/34447298/127914825-0ee3bd22-cab0-42a9-9d09-321ed0dee082.png)
 
 > for 10,000 iterations
@@ -32,6 +35,7 @@ YOLOv4             |  YOLOv3
 
 
 <h2 id='Classes'>Classes</h2>
+
 1. car: with 101314 labels
 2. truck: with 6313 labels
 3. pedestrian: with 10637 labels
@@ -39,6 +43,7 @@ YOLOv4             |  YOLOv3
 5. light: with 12700 labels
 
 <h2 id='Log'>Training Log</h2>
+
 YOLOv4             |  YOLOv3
 :-------------------------:|:-------------------------:
 ![chart 2](https://user-images.githubusercontent.com/34447298/127896489-c0760257-baf9-4b7b-b9de-a7ec24c86907.jpg)| ![chart](https://user-images.githubusercontent.com/34447298/127447409-ed86928f-d060-440b-925c-fc0bedb69b0c.png)
@@ -46,6 +51,7 @@ YOLOv4             |  YOLOv3
 Conclusion: **The speed of convergence in YOLOv4 is much faster than that in YOLOv3**
 
 <h2 id='weights'>Weights</h2>
+
 YOLOv4             |  YOLOv3
 :-------------------------:|:-------------------------:
 <a href='https://drive.google.com/file/d/1UcwVXnIwra52eKY-a8jHg2AT6tALBnpw/view?usp=sharing' target="_blank">yolov4-obj_10000.weights</a> | <a href='https://drive.google.com/file/d/1Hrf_RzsQWD8oRv5UX37C9JvF8QO8w7qp/view?usp=sharing' target="_blank">yolov3-obj_10000.weights</a>
@@ -67,6 +73,7 @@ YOLOv4             |  YOLOv3
 
 
 <h2 id='speed'>Speed</h2>
+
 ![截圖 2021-08-03 03 37 19](https://user-images.githubusercontent.com/34447298/127914264-eae20dd4-0a38-4b0c-92ff-c774a1191a66.png)
 
 | | YOLOv4             |  YOLOv3
@@ -87,6 +94,7 @@ YOLOv4             |  YOLOv3
 | mAP | 54.02 % | 40.80 %
 
 <h2 id='ref'>References</h2>
+
 - YOLOv4: Optimal Speed and Accuracy of Object Detection: https://arxiv.org/pdf/2004.10934
 - Training data from: https://www.kaggle.com/alincijov/self-driving-cars
 - Tesing data from: https://youtu.be/z1obnaqPgMA

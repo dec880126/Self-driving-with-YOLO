@@ -65,7 +65,7 @@ YOLOv4             |  YOLOv3
 |Quality: 1080p | AVG FPS = 14.6 | AVG FPS = 16.1
 |Quality: 720p | AVG FPS = 33.1 | AVG FPS = 33.0
 |Quality: 360p | AVG FPS = 45.2 | AVG FPS = 43.4
-| mAP | 51.93 % | 40.80 %
+| mAP | 54.02 % | 40.80 %
 
 
 ## YouTube Link of Video Demo

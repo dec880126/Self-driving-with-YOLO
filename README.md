@@ -74,9 +74,9 @@ YOLOv4             |  YOLOv3
 
 | | YOLOv4             |  YOLOv3
 |:-------------------------:|:-------------------------:|:-------------------------:
-|Quality: 1080p | 
-|Quality: 720p | 
-|Quality: 360p | 
+|Quality: 1080p | <a src='https://youtu.be/z7_G99y6Tj0'>Click Me</a> | <a src='https://youtu.be/Ui31LWzBznY'>Click Me</a>
+|Quality: 720p | <a src='https://youtu.be/FCZUgSq0MC4'>Click Me</a> | <a src='https://youtu.be/tIrTPZjyQCI'>Click Me</a>
+|Quality: 360p | <a src='https://youtu.be/dCZqnxwqpzs'>Click Me</a> | <a src='https://youtu.be/X-daaeXujCQ'>Click Me</a>
 | mAP | 54.02 % | 40.80 %
 
 ## References

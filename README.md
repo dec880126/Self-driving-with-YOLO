@@ -16,6 +16,8 @@ truck | ap = 61.61% | ap = 51.89% | TP = 573, FP = 232 | TP = 469, FP = 244
 pedestrian | ap = 42.53% | ap = 24.20% | TP = 2192, FP = 1392 | TP = 1213, FP = 1242
 bicyclist | ap = 41.32% | ap = 15.66% | TP = 93, FP = 63| TP = 51, FP = 94
 light | ap = 51.58% | ap = 42.93% | TP = 2298, FP = 739 | TP = 1793, FP = 706
+<br>
+Conclusion: **More significant improvement in low AP classes.**
 
 
 ## mAP

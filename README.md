@@ -18,6 +18,7 @@ light | ap = 51.58% | ap = 42.93% | TP = 2298, FP = 739 | TP = 1793, FP = 706
 
 ## mAP(mean Average Precision)
 > for 10,000 iterations
+
 YOLOv4             |  YOLOv3
 :-------------------------:|:-------------------------:
 **mean average precision (mAP@0.50) = 54.02 %** | **mean average precision (mAP@0.50) = 40.80 %**

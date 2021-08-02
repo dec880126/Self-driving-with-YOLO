@@ -19,6 +19,8 @@ light | ap = 51.58% | ap = 42.93% | TP = 2298, FP = 739 | TP = 1793, FP = 706
 
 
 ## mAP
+![截圖 2021-08-03 03 42 48](https://user-images.githubusercontent.com/34447298/127914825-0ee3bd22-cab0-42a9-9d09-321ed0dee082.png)
+
 > for 10,000 iterations
 
 YOLOv4             |  YOLOv3

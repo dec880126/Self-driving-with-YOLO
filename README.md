@@ -18,7 +18,7 @@ bicyclist | ap = 41.32% | ap = 15.66% | TP = 93, FP = 63| TP = 51, FP = 94
 light | ap = 51.58% | ap = 42.93% | TP = 2298, FP = 739 | TP = 1793, FP = 706
 
 
-## mAP(mean Average Precision)
+## mAP
 > for 10,000 iterations
 
 YOLOv4             |  YOLOv3

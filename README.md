@@ -1,5 +1,17 @@
 <h1 align="center">Self-driving training with YOLO</h1>
 
+* [Demo](#Demo)
+* [AP](AP)
+* [mAP](#mAP)
+* [Classes](#Classes)
+* [Training Log](#Log)
+* [Weights](#weights)
+* [How TO Use](#how)
+* [Environment](#environment)
+* [Speed](#speed)
+* [YouTube Link of Video Demo](#ytlink)
+* [References](#references)
+
 <h2 id='Demo'>Demo</h2>
 
 YOLOv4             |  YOLOv3

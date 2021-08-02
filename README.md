@@ -32,14 +32,14 @@ YOLOv4             |  YOLOv3
 ## Training Log
 YOLOv4             |  YOLOv3
 :-------------------------:|:-------------------------:
-![image](https://user-images.githubusercontent.com/34447298/126898309-b749ffc5-0495-4594-894b-fdc57090ed4e.png)  |  ![chart](https://user-images.githubusercontent.com/34447298/127447409-ed86928f-d060-440b-925c-fc0bedb69b0c.png)
+![chart 2](https://user-images.githubusercontent.com/34447298/127896489-c0760257-baf9-4b7b-b9de-a7ec24c86907.jpg)| ![chart](https://user-images.githubusercontent.com/34447298/127447409-ed86928f-d060-440b-925c-fc0bedb69b0c.png)
 
 
 
 ## Weights I trained
 YOLOv4             |  YOLOv3
 :-------------------------:|:-------------------------:
-<a href='https://drive.google.com/file/d/1mmxOU3D-wyLeLI1jg-vhKj-Kt7UQ_GHs/view?usp=sharing' target="_blank">yolov4-obj_3.1656.weights</a> | <a href='https://drive.google.com/file/d/1Hrf_RzsQWD8oRv5UX37C9JvF8QO8w7qp/view?usp=sharing' target="_blank">yolov3-obj_10000.weights</a>
+<a href='https://drive.google.com/file/d/1UcwVXnIwra52eKY-a8jHg2AT6tALBnpw/view?usp=sharing' target="_blank">yolov4-obj_10000.weights</a> | <a href='https://drive.google.com/file/d/1Hrf_RzsQWD8oRv5UX37C9JvF8QO8w7qp/view?usp=sharing' target="_blank">yolov3-obj_10000.weights</a>
 
 
 ## How to use

@@ -43,7 +43,7 @@ YOLOv4             |  YOLOv3
 :-------------------------:|:-------------------------:
 ![chart 2](https://user-images.githubusercontent.com/34447298/127896489-c0760257-baf9-4b7b-b9de-a7ec24c86907.jpg)| ![chart](https://user-images.githubusercontent.com/34447298/127447409-ed86928f-d060-440b-925c-fc0bedb69b0c.png)
 
-
+Conclusion: **The speed of convergence in YOLOv4 is much faster than that in YOLOv3**
 
 ## Weights I trained
 YOLOv4             |  YOLOv3

@@ -68,7 +68,7 @@ YOLOv4             |  YOLOv3
 | mAP | 51.93 % | 40.80 %
 
 
-## Full video demo
+## YouTube Link of Video Demo
 
 | | YOLOv4             |  YOLOv3
 |:-------------------------:|:-------------------------:|:-------------------------:

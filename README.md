@@ -1,6 +1,7 @@
 <h1 align="center">Self-driving training with YOLO</h1>
 
 * [Demo](#Demo)
+* [Dataset](#dataset)
 * [AP](AP)
 * [mAP](#mAP)
 * [Classes](#Classes)
@@ -18,6 +19,10 @@ YOLOv4             |  YOLOv3
 :-------------------------:|:-------------------------:
 ![1627216237257](https://user-images.githubusercontent.com/34447298/126899013-21aadbf8-b79e-46ad-b63e-0d3d0f59cab5.gif) | ![1627544679170](https://user-images.githubusercontent.com/34447298/127452341-4deb4463-1c65-4923-a30f-6aa8326c46cd.gif)
 
+<h2 id='dataset'>Dataset</h2>
+
+![截圖 2021-08-03 21 18 55](https://user-images.githubusercontent.com/34447298/128022232-d4b5ebd2-82bb-4ac4-a388-b48c02ad3baf.png)
+
 
 <h2 id='AP'>AP</h2>
 
@@ -34,7 +39,6 @@ light | ap = 51.58% | ap = 42.93% | TP = 2298, FP = 739 | TP = 1793, FP = 706
 
 Conclusion: **More significant improvement in low AP classes.**
 
-
 <h2 id='mAP'>mAP</h2>
 
 ![截圖 2021-08-03 03 42 48](https://user-images.githubusercontent.com/34447298/127914825-0ee3bd22-cab0-42a9-9d09-321ed0dee082.png)
@@ -47,6 +51,7 @@ YOLOv4             |  YOLOv3
 
 
 <h2 id='Classes'>Classes</h2>
+![截圖 2021-08-03 21 15 21](https://user-images.githubusercontent.com/34447298/128021722-e45a35d9-6b51-402a-92fa-46c1f39284d2.png)
 
 1. car: with 101314 labels
 2. truck: with 6313 labels

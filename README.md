@@ -11,6 +11,7 @@
 * [Environment](#environment)
 * [Speed](#speed)
 * [YouTube Link of Video Demo](#ytlink)
+* [Google Colab](#colab)
 * [References](#references)
 
 <h2 id='Demo'>Demo</h2>
@@ -112,6 +113,10 @@ YOLOv4             |  YOLOv3
 | mAP | 54.02 % | 40.80 %
 <br>
 <a href='https://youtu.be/8aLlVEkXN5Q'>Video of comparison between YOLOv4 & YOLOv3</a>
+
+<h2 id="colab">Google Colab</h2>
+
+<a href="https://colab.research.google.com/drive/1nPpz8-5tg6nwoMtCYWgunGIlMM8j0yui?usp=sharing">Link</a>
 
 
 <h2 id='ref'>References</h2>

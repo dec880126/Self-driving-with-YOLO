@@ -12,6 +12,9 @@
 * [Speed](#speed)
 * [YouTube Link of Video Demo](#ytlink)
 * [Google Colab](#colab)
+* [Tutorial](#tutorial)
+  * [Run your custom object detection](#run)
+* [Citation](#citation)
 * [References](#references)
 
 <h2 id='Demo'>Demo</h2>
@@ -118,6 +121,92 @@ YOLOv4             |  YOLOv3
 
 <a href="https://colab.research.google.com/drive/1nPpz8-5tg6nwoMtCYWgunGIlMM8j0yui?usp=sharing">Link</a>
 
+<h2 id="tutorial">Tutorial</h2>
+
+### 檢查環境用指令
+1. verify CUDA version: `/usr/local/cuda/bin/nvcc --version`
+2. check GPU info: `nvidia-smi`
+
+### 配置Darknet環境
+> clone AlexeyAB/darknet repo
+
+`git clone https://github.com/AlexeyAB/darknet`
+
+> change makefile to have GPU and OPENCV enabled
+
+```
+sed -i 's/GPU=0/GPU=1/' Makefile
+sed -i 's/CUDNN=0/CUDNN=1/' Makefile
+sed -i 's/OPENCV=0/OPENCV=1/' Makefile
+```
+
+> Build darknet environment
+
+`make`
+
+> 配置config檔
+
+ - change line batch to `batch=64`
+ - change line subdivisions to `subdivisions=16`
+ - change line max_batches to (`classes*2000`, but not less than number of training images and not less than `6000`), f.e. max_batches=6000 if you train for 3 classes
+ - change line steps to 80% and 90% of max_batches, f.e. `steps=4800,5400`
+ - set network size `width=416 height=416` or any value multiple of 32:
+ - change line `classes=80` to your number of objects in each of 3 `[yolo]`-layers
+ - change `[filters=255]` to filters=(classes + 5)x3 in the 3 `[convolutional]` before each `[yolo]` layer, keep in mind that it only has to be the last `[convolutional]` before each of the `[yolo]` layers
+
+> 準備好以下檔案
+
+1. train.txt
+2. test.txt
+3. obj.data
+4. obj.names
+5. pre-trained.weights
+
+### Start training
+
+`./darknet detector train <your_path_of_obj.data> <your_path_of_cfg> <your_path_of_weights> -chart chart.png`
+
+ - `-chart chart.png`: 可保存訓練過程
+
+<h2 id="run">Run your custom object detection</h2>
+
+### 修改cfg
+```
+sed -i 's/batch=64/batch=1/' <your_path_of_cfg>
+sed -i 's/subdivisions=16/subdivisions=1/' <your_path_of_cfg>
+```
+
+### Detect
+
+`./darknet detector test <your_path_of_obj.data> <your_path_of_cfg> <your_path_of_weights> <your_path_of_input_picture>`
+
+### 計算mAP
+
+`./darknet detector map <your_path_of_obj.data> <your_path_of_cfg> <your_path_of_weights>`
+
+<h2 id='citation'>Citation</h2>
+
+```
+@misc{bochkovskiy2020yolov4,
+      title={YOLOv4: Optimal Speed and Accuracy of Object Detection}, 
+      author={Alexey Bochkovskiy and Chien-Yao Wang and Hong-Yuan Mark Liao},
+      year={2020},
+      eprint={2004.10934},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+
+```
+@InProceedings{Wang_2021_CVPR,
+    author    = {Wang, Chien-Yao and Bochkovskiy, Alexey and Liao, Hong-Yuan Mark},
+    title     = {{Scaled-YOLOv4}: Scaling Cross Stage Partial Network},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {13029-13038}
+}
+```
 
 <h2 id='ref'>References</h2>
 
